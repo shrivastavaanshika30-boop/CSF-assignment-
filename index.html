@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+   body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    background-color: rgba(255, 255, 255, 0.836);
+    text-align: center;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding:20px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+
+section{
+    padding: 4opx;
+}
+ table{
+    margin:auto;
+    border-collapse: collapse;
+    background: white;
+}
+th{
+    background-color:darkblue;
+    color:white;
+}
+
+th,td{
+   padding:10px;
+}
+project-box{
+    margin:15px;
+    padding:15px;
+    width: 50px;
+    background:white; 
+    border:1px;
+    border-radius: 7px;  
+}
+contact-table td{
+    border:2px;
+    padding:10px;
+}
+button{
+    background-color: darkblue;
+    color:white;
+    padding: auto;
+    border:none;
+    border-radius: 7px;
+}
+</style>
+<body>
+    
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <nav>
+            <a href="#about">about</a>
+            <a href="#education">education</a>
+            <a href="#skills">skills</a>
+            <a href="#projects">projects</a>
+            <a href="contact">contact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740&q=80" alt="profile photo" width="300px" height="300px">
+    <p>Hello! I am Anshika Shrivastava. I enjoy creating user-friendly and visually appealing web interfaces.</p>
+    </section>
+    <section id="education">
+        <ul>
+        <li>B.Tech in Computer Science & Engineering</li>
+        <li>Specialization in AI & Robotics</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>My skills</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>skill</th>
+            <th>level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>beginner</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>learning</td>
+        </tr>
+    </table>
+    </section>
+    <section id="projects">
+        <h2>My projects</h2>
+        <div class="project-box">
+            <b>project 1</b>
+            <p>A simple HTML&CSS webpage</p>
+ </div>
+ <div class="project-box">
+    <b>project 2</b>
+    <p>Calculator</p>
+ </div>
+ <div class="project-box">
+    <b>project 3</b>
+    <p>number guessing game</p>
+ </div>
+ <div class="project-box">
+    <b>project 3</b>
+    <p>To-do list(console-based)</p>
+ </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>contact me</h2>
+        <form>
+            <table class="contact-table">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                <td>Email:</td>
+                <td><input type="text" placeholder="enter your Email"></td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea placeholder="enter your message"></textarea></td>
+                </tr>
+                
+</table>
+<button type="submit" class=""button>Send</button>
+
+        </form>
+    </section>
+    
+        <a href="#back" class="back">back to top</a>
+    
+<footer>
+    <p>&copy; 2025 website. All right reserved</p>
+</footer>
+
+</body>
+</html>
